@@ -1,0 +1,5 @@
+api:
+  origin: "*"
+  
+streams:
+        cam1: rtsp://admin:Rt67We45@192.168.88.50:554/Streaming/Channels/101/

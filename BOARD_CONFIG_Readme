@@ -1,0 +1,13 @@
+1.Enable extra low-level configuration options
+
+2.Set the Bootloader offeset as 28 KiB
+
+3.Set the “Micro-controller Architecture” as “STMicroelectronics STM32”
+
+4.Set the Communication interface as “USART3 PB11/PB10”
+
+5.Enter the last option, enter “!PC6, !PD13”, the. Press enter key
+
+Then press Q and enter “yes”, after that, the setup is done.
+cd ~/klipper
+./scripts/update_mks_robin.py ./out/klipper.bin ./out/Robin_nano.bin
